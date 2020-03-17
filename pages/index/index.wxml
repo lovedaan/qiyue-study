@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap="addGg">添加规格</button>
+  <button bindtap="submit">提交</button>
+  <view class="list">
+    <view wx:for="{{list}}" class="item" wx:key="index">
+      <input value="{{item.name}}" data-index="{{index}}" bindinput="changeInput"></input>
+      <button bindtap="delItem" data-index="{{index}}">删除</button>
+    </view>
+  </view>
+</view>
