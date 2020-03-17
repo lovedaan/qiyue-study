@@ -1,0 +1,12 @@
+<view class="container">
+  <scroll-view scroll-x="{{true}}">
+    <view class="scroll-view">
+      <block wx:for="{{scrollList}}" wx:key="index">
+        <view class="inner">
+          <image class="img" src="{{item.img}}"></image>
+          <text class="title">{{item.title}}</text>
+        </view>
+      </block>
+    </view>
+  </scroll-view>
+</view>

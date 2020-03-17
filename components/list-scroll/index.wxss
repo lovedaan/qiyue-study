@@ -1,0 +1,24 @@
+.container {
+  padding: 30rpx 0 30rpx 30rpx;
+  background: #eee;
+}
+.scroll-view {
+  display: flex;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350rpx;
+  margin-right: 20rpx;
+}
+
+.img {
+  width: 350rpx;
+  height: 350rpx;
+}
+
+.title {
+  font-size: 28rpx;
+  margin-top: 15rpx;
+}

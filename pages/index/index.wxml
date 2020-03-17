@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+  <v-list-scroll scroll-list="{{scrollList}}" />
   <button bindtap="addGg">添加规格</button>
   <button bindtap="submit">提交</button>
   <view class="list">
